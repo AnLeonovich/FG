@@ -89,7 +89,13 @@ export class doSpell {
     }, 2000);
   }
   blitzAttack() {
-    new doSpell().attack(blitzPower);
+    if (blitzPower !== 0) {
+      new doSpell().attack(blitzPower);
+    } else {
+      setTimeout(() => {
+        new monsterAttack();
+      }, 1000);
+    }
   }
   super() {
     new doSpell().attack(SUPER_ATTACK_POWER);
