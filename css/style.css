@@ -349,5 +349,5 @@ nav {
 	font-family: "Gwent";
 	font-weight: bold;
 	font-style: normal;
-	src: url("../fonts/GWENT-ExtraBold.ttf") format("truetype");
+	src: url("~/../fonts/GWENT-ExtraBold.ttf") format("truetype");
 }
