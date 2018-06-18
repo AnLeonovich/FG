@@ -1,0 +1,113 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.task-modal-content {
+    background-image: url("../assets/img/extras/white-board.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 80%;
+    height: 85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template: "task-task-content" 60% "task-field" 40%;
+    align-items: center;
+}
+
+.options {
+    grid-template: "task-task-content" 40% "task-field" 60%;
+}
+
+.countTask {
+    grid-template: "task-task-content" 30% "task-field" 70%;
+}
+
+.rules-list {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.rules-list {
+    display: inline-block;
+}
+
+.task-task-content {
+    grid-area: task-task-content;
+    display: grid;
+    grid-template: "task-task-description" "task-task-text";
+    height: 100%;
+    margin-top: 7%;
+}
+
+.task-field {
+    grid-area: task-field;
+    display: grid;
+    grid-template: "task-field-answer" "task-field-btn";
+    height: 100%;
+}
+
+.task-task-description {
+    grid-area: task-task-description;
+    align-self: center;
+    color: teal;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.task-task-text-wrapper {
+    width: 80%;
+    justify-self: center;
+}
+
+.task-task-text {
+    grid-area: task-task-text;
+    text-align: left;
+    display: inline-block;
+}
+
+.task-field-answer-container {
+    grid-area: task-field-answer;
+    margin: auto;
+}
+
+.task-field-btn-container {
+    grid-area: task-field-btn;
+}
+
+.sortable {
+    list-style-type: none;
+    text-align: center;
+}
+
+.sortable li {
+    float: left;
+    margin: 0rem 0.6rem;
+    padding: 1rem 0.5rem;
+    font-size: 1.7rem;
+    display: inline-block;
+    cursor: pointer;
+    height: auto !important;
+    width: auto !important;
+}
+
+.drag-item {
+    background: #cedc98;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+}
