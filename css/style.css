@@ -241,14 +241,14 @@ nav {
 }
 
 .door-left {
-	background-image: url("../assets/img/office-background/doors/door-left.png");
+	background-image: url("~/../assets/img/office-background/doors/door-left.png");
 	transform-origin: left;
 	left: 4.2%;
 	width: 6.35%;
 }
 
 .door-right {
-	background-image: url("../assets/img/office-background/doors/door-right.png");
+	background-image: url("~/../assets/img/office-background/doors/door-right.png");
 	transform-origin: right;
 	right: 3.6%;
 	width: 6.59%;
@@ -349,5 +349,5 @@ nav {
 	font-family: "Gwent";
 	font-weight: bold;
 	font-style: normal;
-	src: url("../fonts/GWENT-ExtraBold.ttf") format("truetype");
+	src: url("~/../fonts/GWENT-ExtraBold.ttf") format("truetype");
 }
