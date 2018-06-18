@@ -209,7 +209,7 @@ const LEVEL_HTML = `<div class = "background-opacity-wrapper"> </div>
 </div>`,
 
   PLAY_AGAIN_BTN_HTML = `<div class="menu-modal-submit-wrapper">
-                          <a class="new-play-link" href="https://anleonovich.github.io/Final-Game/">
+                          <a href="https://anleonovich.github.io/Final-Game/" class="new-play-link">
                             <button type="button" class="btn btn-danger menu-btn" id="playAgainBtn">Play Again</button>
                           </a>
                         </div>`,
