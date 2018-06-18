@@ -9,7 +9,7 @@ import { blitzPower } from './helpers'
 export class doSpell {
   constructor() { }
   attack(power) {
-    let audio = new Audio(`../assets/sounds/attack/${new Helpers().randomNumber(9)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/attack/${new Helpers().randomNumber(9)}.mp4`);
     audio.play();
     let force = ATTACK_POWER;
     new showSpell().attack('monster');
@@ -63,7 +63,7 @@ export class doSpell {
     };
   }
   shield() {
-    let audio = new Audio(`../assets/sounds/shield/${new Helpers().randomNumber(5)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/shield/${new Helpers().randomNumber(5)}.mp4`);
     audio.play();
     player.shield += SHIELD_POWER;
     document.querySelector('.hero-shield__number').innerHTML = player.shield;
@@ -73,7 +73,7 @@ export class doSpell {
     }, 2000);
   }
   heal() {
-    let audio = new Audio(`../assets/sounds/heal/${new Helpers().randomNumber(7)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/heal/${new Helpers().randomNumber(7)}.mp4`);
     audio.play();
     if (player.health < PLAYER_MAX_HEALTH) {
       player.health += HEAL_POWER;

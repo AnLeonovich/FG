@@ -7,7 +7,7 @@ export class showSpell {
     wrapper.style.height = '140px';
     wrapper.style.left = document.querySelector(`.${who}-container`).offsetWidth / 2 - 70 + 'px';
     image.style.display = 'block';
-    image.src = '../assets/img/spells/Exattack.png';
+    image.src = '~/../assets/img/spells/Exattack.png';
     image.style.width = '1200%';
     image.style.height = '100%';
 
@@ -30,7 +30,7 @@ export class showSpell {
     wrapper.style.height = '160px';
     wrapper.style.left = document.querySelector(`.${who}-container`).offsetWidth / 2 - 75 + 'px';
     image.style.display = 'block';
-    image.src = '../assets/img/spells/Exshield.png';
+    image.src = '~/../assets/img/spells/Exshield.png';
     image.style.width = '1048px';
     image.style.height = '472px';
 
@@ -59,7 +59,7 @@ export class showSpell {
     wrapper.style.height = '220px';
     wrapper.style.left = document.querySelector(`.${who}-container`).offsetWidth / 2 - 108 + 'px';
     image.style.display = 'block';
-    image.src = '../assets/img/spells/Exheal.png';
+    image.src = '~/../assets/img/spells/Exheal.png';
     image.style.width = '870px';
     image.style.height = '673px';
 

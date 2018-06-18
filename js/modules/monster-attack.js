@@ -17,7 +17,7 @@ export class monsterAttack {
     setTimeout(this[spell], 1000);
   }
   attack() {
-    let audio = new Audio(`../assets/sounds/attack/${new Helpers().randomNumber(9)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/attack/${new Helpers().randomNumber(9)}.mp4`);
     audio.play();
     new showSpell().attack('hero');
     if (!player.shield) {
@@ -52,7 +52,7 @@ export class monsterAttack {
     }
   }
   shield() {
-    let audio = new Audio(`../assets/sounds/shield/${new Helpers().randomNumber(5)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/shield/${new Helpers().randomNumber(5)}.mp4`);
     audio.play();
     monster.shield += SHIELD_POWER;
     document.querySelector('.monster-shield__number').innerHTML = monster.shield;
@@ -62,7 +62,7 @@ export class monsterAttack {
     }, 2500);
   }
   heal() {
-    let audio = new Audio(`../assets/sounds/heal/${new Helpers().randomNumber(7)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/heal/${new Helpers().randomNumber(7)}.mp4`);
     audio.play();
     monster.health += HEAL_POWER;
     if (monster.health > (100 + 20 * level)) {
