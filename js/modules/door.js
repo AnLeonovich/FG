@@ -1,4 +1,4 @@
-let synth = window.speechSynthesis;
+import { SYNTH as synth } from '../consts/const';
 
 export class Door {
   constructor(door) {

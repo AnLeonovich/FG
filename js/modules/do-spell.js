@@ -1,15 +1,14 @@
-import { ATTACK_POWER, SHIELD_POWER, HEAL_POWER, PLAYER_MAX_HEALTH, SUPER_ATTACK_POWER } from './../consts/const'
-import { Helpers } from './helpers'
+import { ATTACK_POWER, SHIELD_POWER, HEAL_POWER, PLAYER_MAX_HEALTH, SUPER_ATTACK_POWER, SUPER_SCALE_FULL, LAST_LEVEL  } from './../consts/const'
+import { randomNumber, blitzPower, unblockSuperAttack, blockSuperAttack } from './helpers'
 import { monster, player, level } from './create-page';
 import { showSpell } from './show-spell'
 import { monsterAttack } from './monster-attack';
 import { levelResults } from './level-results'
-import { blitzPower } from './helpers'
 
 export class doSpell {
   constructor() { }
   attack(power) {
-    let audio = new Audio(`~/../assets/sounds/attack/${new Helpers().randomNumber(9)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/attack/${randomNumber(9)}.mp4`);
     audio.play();
     let force = ATTACK_POWER;
     new showSpell().attack('monster');
@@ -30,23 +29,24 @@ export class doSpell {
       }
     }
     player.super += 20;
-    if (player.super > 100) {
-      player.super = 100;
+    if (player.super > SUPER_SCALE_FULL) {
+      player.super = SUPER_SCALE_FULL;
     }
     document.querySelector('.hero-super_scale').style.width = `${player.super}%`;
-    if (player.super === 100) {
-      new Helpers().unblockSuperAttack();
+    if (player.super === SUPER_SCALE_FULL) {
+      unblockSuperAttack();
     }
     if (monster.health <= 0) {
       monster.health = 0; 
       document.querySelector('.monster-health-scale').style.width = `${monster.health}%`;
       document.querySelector('.monster-health-scale__number').innerHTML = '';
+      document.querySelector('.monster-shield__number').innerHTML = monster.shield;
       if (level < 5) {
         setTimeout(() => {
           new levelResults().win();
         }, 2000);
       }
-      if (level === 5) {
+      if (level === LAST_LEVEL) {
         setTimeout(() => {
           new levelResults().winGame();
         }, 2000);
@@ -63,7 +63,7 @@ export class doSpell {
     };
   }
   shield() {
-    let audio = new Audio(`~/../assets/sounds/shield/${new Helpers().randomNumber(5)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/shield/${randomNumber(5)}.mp4`);
     audio.play();
     player.shield += SHIELD_POWER;
     document.querySelector('.hero-shield__number').innerHTML = player.shield;
@@ -73,7 +73,7 @@ export class doSpell {
     }, 2000);
   }
   heal() {
-    let audio = new Audio(`~/../assets/sounds/heal/${new Helpers().randomNumber(7)}.mp4`);
+    let audio = new Audio(`~/../assets/sounds/heal/${randomNumber(7)}.mp4`);
     audio.play();
     if (player.health < PLAYER_MAX_HEALTH) {
       player.health += HEAL_POWER;
@@ -94,11 +94,11 @@ export class doSpell {
     } else {
       setTimeout(() => {
         new monsterAttack();
-      }, 1000);
+      }, 2000);
     }
   }
   super() {
     new doSpell().attack(SUPER_ATTACK_POWER);
-    new Helpers().blockSuperAttack();
+    blockSuperAttack();
   }
 }

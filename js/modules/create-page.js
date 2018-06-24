@@ -1,4 +1,4 @@
-import { Helpers } from './helpers'
+import { randomArrayElem, chooseLanguage, selectElement, createPlayer } from './helpers'
 import { Dialogs, dialogActions } from './dialogs'
 import { Office } from './offices'
 import { SideNav } from './game-settings'
@@ -7,6 +7,7 @@ import { MonsterGenerator } from './monster-generator'
 import { Monster } from './monster-object'
 import { Spells } from './spells'
 import { MONSTER_HEAD_ARRAY, MONSTER_BODY_ARRAY, MONSTER_LEGS_ARRAY } from '../consts/monster_consts'
+import { SYNTH as synth } from '../consts/const';
 
 import aQ from '../../assets/questions/attackQuestions.json'
 import sQ from '../../assets/questions/shieldQuestions.json'
@@ -15,7 +16,6 @@ import hQ from '../../assets/questions/healQuestions.json'
 let player, selectedOffice, levelLanguage, monster, taskField, text, description, monstersPhrases, spell, modal;
 let attackQuestions, shieldQuestions, healQuestions;
 
-let synth = window.speechSynthesis;
 let level = 0;
 
 export class createPage { 
@@ -23,13 +23,13 @@ export class createPage {
   greeting() {
     const characters = document.getElementById('characters');
     Array.from(characters.children).forEach(div => {
-      div.addEventListener('click', new Helpers().selectElement)
+      div.addEventListener('click', selectElement)
     });
     const startButton = document.getElementById('startGame');
     startButton.addEventListener('click', new createPage().reception);
   }
   reception() { 
-    player = new Helpers().createPlayer();
+    player = createPlayer();
     document.querySelector('body').style.overflow = 'hidden';
     selectedOffice = offices[0];
     new Office(offices[0], "right").createOffice();
@@ -39,19 +39,19 @@ export class createPage {
 
     let rDoor = document.querySelector('.door-right');
     rDoor.addEventListener('click', function () {
-      synth.cancel(); //stops reading
+      synth.cancel();
       setTimeout(new createPage().level, 1500);
     });
 
     setTimeout(function () {
       let dialogText = new Dialogs().instructions();
       new dialogActions().showDialog(dialogText, 'female');
-    }, 200);
+    }, 500);
   }
   level() {
     level++;
-    levelLanguage = new Helpers().chooseLanguage(languages);
-    selectedOffice = new Helpers().randomArrayElem(offices);
+    levelLanguage = chooseLanguage(languages);
+    selectedOffice = randomArrayElem(offices);
     new Office(selectedOffice, 2).createOffice(level, levelLanguage); 
     new SideNav().createSideNav(level, levelLanguage);
 
@@ -78,7 +78,7 @@ export class createPage {
     }
 
     setTimeout(function () {
-      let dialogText = new Helpers().randomArrayElem(monstersPhrases);
+      let dialogText = randomArrayElem(monstersPhrases);
       new dialogActions().showDialog([dialogText]);
     }, 1000);
 
@@ -99,6 +99,7 @@ export class createPage {
     level = 'boss';
     selectedOffice = "office-6";
     new Office(selectedOffice, "left").createOffice();
+    $(".hero-container").addClass(player.character);
     new SideNav().createSideNav();
     setTimeout(function () {
       let dialogText = new Dialogs().boss();

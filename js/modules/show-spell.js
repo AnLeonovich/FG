@@ -14,14 +14,14 @@ export class showSpell {
     let attack = setInterval(() => {
       let now = parseInt(image.style.left) || 0;
       image.style.left = now - 100 + '%';
-    }, 50);
+    }, 70);
 
     setTimeout(function () {
       clearInterval(attack);
       image.style.display = 'none';
       image.style.left = 0;
       image.style.top = 0;
-    }, 500);
+    }, 700);
   }
   shield(who) {
     let wrapper = document.querySelector(`.${who}-spell-vis`);
@@ -69,7 +69,6 @@ export class showSpell {
 
       if (now === -645) {
         let top = parseInt(image.style.top) || 0;
-
         image.style.top = top - 220 + 'px';
         now = 215;
       }

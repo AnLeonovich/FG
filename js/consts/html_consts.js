@@ -94,7 +94,7 @@ const LEVEL_HTML = `<div class = "background-opacity-wrapper"> </div>
   <div class="hero-container"></div>
   <div class='dialog' id='dialog'>
     <p class='dialog__message' id='message'></p>
-    <button type="button" class="dialog__button" id='dialogButton'>Start</button>
+    <button type="button" class="dialog__button" id='dialogButton'>Close</button>
   </div>`,
 
   SIDE_NAV_HTML = `<div class="sidenav">

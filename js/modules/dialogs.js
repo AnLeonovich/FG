@@ -1,9 +1,8 @@
 import { player, level, levelLanguage, monster } from './create-page';
-import { Helpers } from './helpers'
+import { setVoiceGender, createReadableText } from './helpers'
 import { SideNav } from './game-settings'
 import { lose } from './level-results'
-
-let synth = window.speechSynthesis;
+import { SYNTH as synth } from '../consts/const';
 
 export class Dialogs {
   constructor() { }
@@ -87,8 +86,8 @@ export class dialogActions {
     document.getElementById('message').innerHTML = '';
     let ele = document.getElementById(id),
       txt = text.join("").split("");
-    let readDialogText = new Helpers().createReadableText(text);
-    new Helpers().setVoiceGender(readDialogText, gender);
+    let readDialogText = createReadableText(text);
+    setVoiceGender(readDialogText, gender);
 
     synth.speak(readDialogText);
     let interval = setInterval(function () {

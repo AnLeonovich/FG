@@ -1,8 +1,9 @@
 import { monster, player, createPage } from './create-page';
 import { Dialogs, dialogActions } from './dialogs'
 import { Door } from './door';
-import { Helpers } from './helpers'
+import { randomArrayElem } from './helpers'
 import { SideNav } from './game-settings'
+import { PLAYER_MAX_HEALTH } from '../consts/const';
 
 let lose;
 
@@ -10,7 +11,7 @@ export class levelResults {
   constructor() { }
   win() {
     player.levelPass++;
-    player.health = 100;
+    player.health = PLAYER_MAX_HEALTH;
     player.shield = 0;
     player.super = 0;
 
@@ -19,7 +20,7 @@ export class levelResults {
 
     let monstersPhrases = new Dialogs().monstersPhrasesLevelWin();
     setTimeout(function () {
-      let dialogText = new Helpers().randomArrayElem(monstersPhrases);
+      let dialogText = randomArrayElem(monstersPhrases);
       new dialogActions().showDialog([dialogText]);
     }, 500);
 
@@ -34,7 +35,7 @@ export class levelResults {
 
     let monstersPhrases = new Dialogs().monstersPhrasesLevelLose();
     setTimeout(function () {
-      let dialogText = new Helpers().randomArrayElem(monstersPhrases);
+      let dialogText = randomArrayElem(monstersPhrases);
       new dialogActions().showDialog([dialogText]);
     }, 500);
   }

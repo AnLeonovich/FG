@@ -1,10 +1,10 @@
 import { text, description, taskField } from './create-page'
 import { englishVocab, audioVocabulary } from './tasks'
 import { checkAnswer } from './check-answer'
-import { Helpers } from "./helpers";
+import { setVoiceGender } from "./helpers";
+import { KEY_ENTER, SYNTH as synth } from '../consts/const';
 
 let answerButtom, rules, result;
-let synth = window.speechSynthesis;
 
 export class giveTask {
   constructor() { }
@@ -16,7 +16,7 @@ export class giveTask {
     text.innerHTML = task;
     result = new checkAnswer(answer);
     $(".task__form_answer").keypress(function (e) {
-      if (e.which == 13) {
+      if (e.which === KEY_ENTER) {
         result.checkSimpleAnswer();
       }
     });
@@ -34,13 +34,13 @@ export class giveTask {
 
     audioBtn.click(() => {
       let readTaskText = new SpeechSynthesisUtterance(task);
-      new Helpers().setVoiceGender(readTaskText);
+      setVoiceGender(readTaskText);
       synth.speak(readTaskText);
     });
 
     result = new checkAnswer(answer); 
     $(".task__form_answer").keypress(function (e) {
-      if (e.which == 13) {
+      if (e.which === KEY_ENTER) {
         result.checkSimpleAnswer();
       }
     });    
@@ -104,7 +104,7 @@ export class giveTask {
     }
     result = new checkAnswer(answer);
     $(".task__form_answer").keypress(function (e) {
-      if (e.which == 13) {
+      if (e.which === KEY_ENTER) {
         result.checkSimpleAnswer();
       }
     });  
@@ -118,7 +118,7 @@ export class giveTask {
     description.innerHTML = rules;
     result = new checkAnswer(answer);
     $(".task__form_answer").keypress(function (e) {
-      if (e.which == 13) {
+      if (e.which === KEY_ENTER) {
         result.checkSimpleAnswer();
       }
     }); 
@@ -132,7 +132,7 @@ export class giveTask {
     description.innerHTML = rules;
     result = new checkAnswer(answer);
     $(".task__form_answer").keypress(function (e) {
-      if (e.which == 13) {
+      if (e.which === KEY_ENTER) {
         result.checkSimpleAnswer();
       }
     }); 
@@ -146,7 +146,7 @@ export class giveTask {
     description.innerHTML = rules;
     result = new checkAnswer(answer);
     $(".task__form_answer").keypress(function (e) {
-      if (e.which == 13) {
+      if (e.which === KEY_ENTER) {
         result.checkSimpleAnswer();
       }
     }); 

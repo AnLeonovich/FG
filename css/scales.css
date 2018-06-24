@@ -40,6 +40,8 @@
 .monster-shield {
     background: linear-gradient(90deg, #a1ff45, #7ec936);
     right: -2px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 5px;
 }
 
 .hero-shield {

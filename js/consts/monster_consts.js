@@ -6,4 +6,6 @@ const ROLE_ARRAY = ["Project Manager", "Product Owner", "Scrum Master", "Team Le
     NAME_ARRAY = ["Jack", "Tom", "Dzmitry", "Abishek", "Alyaxey", "Richard", "John", "Kiran", "Yauheniy"],
     SECOND_NAME_ARRAY = ["Jones", "Abhishek", "Smith", "Brown", "Ivanou", "Hill", "Omar", "Clark"];
 
-export { ROLE_ARRAY, NAME_ARRAY , SECOND_NAME_ARRAY, MONSTER_HEAD_CONTAINER, MONSTER_BODY_CONTAINER, MONSTER_LEGS_CONTAINER, MONSTER_HEAD_ARRAY, MONSTER_BODY_ARRAY, MONSTER_LEGS_ARRAY };
+export {
+	ROLE_ARRAY, NAME_ARRAY , SECOND_NAME_ARRAY, MONSTER_HEAD_ARRAY, MONSTER_BODY_ARRAY, MONSTER_LEGS_ARRAY 
+}

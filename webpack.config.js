@@ -32,7 +32,6 @@ module.exports = {
 				use: [
 					{
 						loader: 'babel-loader'
-						//preserts: ["env"] 
 					}
 				]
 			}
