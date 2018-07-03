@@ -49,6 +49,15 @@ function selectElement(e) {
   elem.classList.add('selected');
 }
 
+function selectImage(e) {
+  let current = document.querySelector('.selected-flag');
+  let elem = e.target;
+  if (current) {
+    current.classList.remove('selected-flag');
+  }
+  elem.classList.add('selected-flag');
+}
+
 function roundToTwenty(number, increment, offset) {
   return Math.ceil((number - offset) / increment) * increment + offset;
 }
@@ -194,8 +203,8 @@ function superClick() {
 }
 
 function randomTasksArray() {
-  let arr = ['calculator', 'firstNumberInEquation', 'secondNumberInEquation'];
-  if (Object.keys(englishVocab).length !== 0) {
+  let arr = [/*'calculator', 'firstNumberInEquation', 'secondNumberInEquation' 'compareNumbers'*/];
+  /*if (Object.keys(englishVocab).length !== 0) {
     arr.push('translate');
   }
   if (Object.keys(audioVocabulary).length !== 0) {
@@ -222,10 +231,18 @@ function randomTasksArray() {
   if (ddQuestions.length !== 0) {
     arr.push('putInRightOrder');
   }
+  if(flagsQuestions.length !== 0) {
+    arr.push('flags');
+  }
+  if(chooseAllQuestions.length !== 0) {
+    arr.push('chooseAll');
+  }
+  */
   return arr;
 }
 
 export {
   blitzCount, blitzPower, randomNumber, addRandomClass, randomArrayElem, chooseLanguage, selectElement, roundToTwenty, generateRandomObjProperty,
-  createPlayer, showIfAnswerCorrect, showIfAnswerWrong, setVoiceGender, createReadableText, unblockSuperAttack, blockSuperAttack, randomTasksArray
+  createPlayer, showIfAnswerCorrect, showIfAnswerWrong, setVoiceGender, createReadableText, unblockSuperAttack, blockSuperAttack, randomTasksArray,
+  selectImage
 }

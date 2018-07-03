@@ -1,0 +1,12 @@
+[
+	["Which animals belong to the cat family?", ["Cheetah", "Lion", "Gull", "Lynx"], ["Cheetah", "Lion", "Lynx"]],
+	["Which of these animals are predators?", ["Snake", "Otter", "Cow", "Deer"], ["Snake", "Otter"]],
+	["Which of these animals are herbivores?", ["Sheep", "Fox", "Cow", "Deer"], ["Sheep", "Cow", "Deer"]],
+	["Which of these countries belong to Asia?", ["New Zealand", "Georgia", "Sudan", "Indonesia"], ["Georgia", "Indonesia"]],
+	["Which of these countries belong to Africa?", ["Guinea", "Georgia", "Congo", "Madagascar"], ["Guinea", "Congo", "Madagascar"]],
+	["Which cars are produced in France?", ["Citroen", "Renault", "Skoda", "Mazda"], ["Citroen", "Renault"]],
+	["Which cars are produced in Germany?", ["Honda", "Skoda", "Mercedes", "Volkswagen"], ["Mercedes", "Volkswagen"]],
+	["Which cars are produced in Italy?", ["Ferrari", "Lamborghini", "Porsche", "Maserati"], ["Ferrari", "Lamborghini", "Maserati"]],
+	["In which countries there is no president?", ["Spain", "Italy", "Japan", "Wakanda"], ["Spain", "Japan", "Wakanda"]],
+	["Which countries don't have access to the sea?", ["Germany", "Sweden", "Nepal", "Hungary"], ["Nepal", "Hungary"]]
+]

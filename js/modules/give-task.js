@@ -1,7 +1,7 @@
 import { text, description, taskField } from './create-page'
 import { englishVocab, audioVocabulary } from './tasks'
 import { checkAnswer } from './check-answer'
-import { setVoiceGender } from "./helpers";
+import { setVoiceGender, selectImage } from "./helpers";
 import { KEY_ENTER, SYNTH as synth } from '../consts/const';
 
 let answerButtom, rules, result;
@@ -166,6 +166,52 @@ export class giveTask {
     description.innerHTML = rules;
     result = new checkAnswer(answer);
     answerButtom.addEventListener('click', result.checkSelectedAnswer);
+  }
+  showTaskFlags(rules, task, srcArr, answer) {
+    description.innerHTML = rules;
+    text.innerHTML = task;
+    taskField.innerHTML = `<div class='flags__wrapper'>
+                            <img src=${srcArr[0][0]} class='flag-task' alt=${srcArr[0][1]}>
+                            <img src=${srcArr[1][0]} class='flag-task' alt=${srcArr[1][1]}>
+                            <img src=${srcArr[2][0]} class='flag-task' alt=${srcArr[2][1]}>
+                            </div>
+                            <input type="button" class='btn task-field-btn' value="Answer">`;
+    answerButtom = document.querySelector('.btn');
+    document.querySelector(".task-modal-content").classList.add('countTask');
+    let options = document.querySelector('.flags__wrapper');
+    Array.from(options.children).forEach(div => {
+      div.addEventListener('click', selectImage)
+    });
+    result = new checkAnswer(answer);
+    answerButtom.addEventListener('click', result.checkFlagsAnswer);
+  }
+  showTaskCompare(rules, firstNumber, secondNumber, answer) {
+    description.innerHTML = rules;
+    taskField.innerHTML = `<p>${firstNumber}
+                            <select size="1">
+                              <option value=">">&gt;</option>
+                              <option value="<">&lt;</option>
+                              <option value="=">=</option>
+                            </select>
+                          ${secondNumber}</p>
+                          <input type="button" class='btn task-field-btn' value="Answer">`;
+    document.querySelector(".task-modal-content").classList.add('countTask');
+    answerButtom = document.querySelector('.btn');
+    result = new checkAnswer(answer);
+    answerButtom.addEventListener('click', result.checkCompareNumbers);
+  }
+  showTaskChooseAll(rules, task, options, answer) {
+    description.innerHTML = rules;
+    text.innerHTML = task;
+    taskField.innerHTML = `<label class="options-checkbox"><input type="checkbox"  class="options-checkbox__item" value='${options[0]}'>${options[0]}</label>
+                            <label class="options-checkbox"><input type="checkbox" class="options-checkbox__item" value='${options[1]}'>${options[1]}</label>
+                            <label class="options-checkbox"><input type="checkbox" class="options-checkbox__item" value='${options[2]}'>${options[2]}</label>
+                            <label class="options-checkbox"><input type="checkbox" class="options-checkbox__item" value='${options[3]}'>${options[3]}</label>
+                            <input type="button" class='btn task-field-btn' value="Answer">`;
+    document.querySelector(".task-modal-content").classList.add('countTask');
+    answerButtom = document.querySelector('.btn');
+    result = new checkAnswer(answer);
+    answerButtom.addEventListener('click', result.checkChooseAll);
   }
 }
 

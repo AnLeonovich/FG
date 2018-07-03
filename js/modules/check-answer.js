@@ -46,4 +46,46 @@ export class checkAnswer {
       showIfAnswerWrong();
     }
   }
+  checkFlagsAnswer() {
+    let answer = document.querySelector('.selected-flag').alt || '';
+    if (answer === result.result) {
+      showIfAnswerCorrect();
+    } else {
+      showIfAnswerWrong();
+    }
+  }
+  checkCompareNumbers() {
+    let list = document.querySelector('select');
+    for (let i = 0; i < list.children.length; i++) {
+      if (list.children[i].selected === true) {
+        console.log(list.children[i].value);
+        if (list.children[i].value === result.result) {
+          showIfAnswerCorrect();
+        } else {
+          showIfAnswerWrong();
+        }
+      }
+    }
+  }
+  checkChooseAll() {    
+    let options = Array.from(document.querySelectorAll('.options-checkbox__item'));
+    options.forEach( option => {
+      if (option.checked === true) {
+        answerArray.push(option.value);
+      }
+    });
+
+    if (answerArray.length !== result.result.length) {
+      answerArray = [];
+      showIfAnswerWrong();
+    } else {
+      if (JSON.stringify(answerArray) === JSON.stringify(result.result)) {
+        answerArray = [];
+        showIfAnswerCorrect();
+      } else {
+        answerArray = [];
+        showIfAnswerWrong();
+      }
+    }
+  }
 }

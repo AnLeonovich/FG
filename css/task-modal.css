@@ -84,6 +84,7 @@
 .task-field-answer-container {
     grid-area: task-field-answer;
     margin: auto;
+    text-align: left;
 }
 
 .task-field-btn-container {

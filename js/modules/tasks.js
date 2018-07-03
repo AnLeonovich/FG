@@ -10,6 +10,8 @@ import nameQuestions from '../../assets/questions/nameTask.json'
 import addWordQuestions from '../../assets/questions/addWordTask.json'
 import celebritiesQuestions from '../../assets/questions/celebritiesQuestions.json'
 import ddQuestions from '../../assets/questions/d&dQuestions.json'
+import flagsQuestions from '../../assets/questions/flagsQuestions.json'
+import chooseAllQuestions from '../../assets/questions/chooseAllQuestions.json'
 
 let englishVocab = vocabulary.english;
 
@@ -98,6 +100,30 @@ export class Tasks {
     let rules = `Select the name of the person in the photo`;
     let question = randomArrayElem(celebritiesQuestions);
     new giveTask().showTaskCelebrities(rules, question[0], question[1], question[2]);
+  }
+  flags() {
+  	let rules = `Read the quesstion and choose the correct picture`;
+  	let question = randomArrayElem(flagsQuestions);
+  	new giveTask().showTaskFlags(rules, question[0], question[1], question[2]);
+  }
+  compareNumbers() {
+  	let rules = `Choose the correct sign`;
+  	let firstNumber = randomNumber(100);
+    let secondNumber = randomNumber(100);
+    let answer;
+    if (firstNumber > secondNumber) {
+    	answer = ">";
+    } else if (firstNumber < secondNumber) {
+    	answer = "<";
+    } else {
+    	answer = "=";
+    }
+    new giveTask().showTaskCompare(rules, firstNumber, secondNumber, answer);
+  }
+  chooseAll() {
+  	let rules = `Read the question and choose all the correct options`;
+  	let question = randomArrayElem(chooseAllQuestions);
+  	new giveTask().showTaskChooseAll(rules, question[0], question[1], question[2]);
   }
 }
 

@@ -345,6 +345,41 @@ nav {
 	text-decoration: none;
 }
 
+/**flags**/
+
+.flags__wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 50px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.flag-task{
+	display: block;
+    max-width: 200px;
+    height: 120px;
+    border: 2px solid teal;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.selected-flag{
+	border: 2px solid #76fbed;
+}
+
+/**checkbox**/
+
+.options-checkbox{
+  display: block;
+  margin: 10px 0;
+}
+
+.options-checkbox__item{
+  margin-right: 10px;
+}
+
 @font-face {
 	font-family: "Gwent";
 	font-weight: bold;
