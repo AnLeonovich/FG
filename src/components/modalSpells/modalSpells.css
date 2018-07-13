@@ -5,7 +5,7 @@
   position: relative;
   width: 300px;
   height: 300px;
-  background: url(~/../src/components/modalSpells/ModalSpellsImg/background.png) no-repeat center;
+  background: url(~/../src/components/modalSpells/spellsImg/background.png) no-repeat center;
   background-size: cover;
   grid-area: spells;
   align-self: center;
@@ -28,34 +28,34 @@
 .attack {
   left: 115px;
   top: -5px;
-  background: url(~/../src/components/modalSpells/ModalSpellsImg/attack.png) no-repeat center center;
+  background: url(~/../src/components/modalSpells/spellsImg/attack.png) no-repeat center center;
   background-size: cover;
 }
 
 .shield {
   left: 230px;
   top: 80px;
-  background: url(~/../src/components/modalSpells/ModalSpellsImg/shield.png) no-repeat center center;
+  background: url(~/../src/components/modalSpells/spellsImg/shield.png) no-repeat center center;
   background-size: cover;
 }
 
 .heal {
   top: 80px;
-  background: url(~/../src/components/modalSpells/ModalSpellsImg/heal2.png) no-repeat center center;
+  background: url(~/../src/components/modalSpells/spellsImg/heal2.png) no-repeat center center;
   background-size: cover;
 }
 
 .blitzAttack {
   left: 200px;
   top: 200px;
-  background: url(~/../src/components/modalSpells/ModalSpellsImg/blitz.png) no-repeat center center;
+  background: url(~/../src/components/modalSpells/spellsImg/blitz.png) no-repeat center center;
   background-size: cover;
 }
 
 .super {
   left: 30px;
   top: 200px;
-  background: url(~/../src/components/modalSpells/ModalSpellsImg/super.png) no-repeat center center;
+  background: url(~/../src/components/modalSpells/spellsImg/super.png) no-repeat center center;
   background-size: cover;
 }
 
