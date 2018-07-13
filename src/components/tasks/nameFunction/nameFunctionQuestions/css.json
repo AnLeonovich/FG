@@ -1,0 +1,42 @@
+[
+    [
+        "The property used to align flex items of the current flex line in the perpendicular direction.",
+        "align-items"
+    ],
+    [
+        "The pseudo-class used to match elements based on their position in a group of siblings.",
+        ":nth-child"
+    ],
+    [
+        "The property letting you round the corners of an element's outer border edge.",
+        "border-radius"
+    ],
+    [
+        "The property which can show or hide an element without affecting the layout of a document",
+        "visibility"
+    ],
+    [
+        "The property defining the type of rendering box used for an element.",
+        "display"
+    ],
+    [
+        "The property specifying that an element should be placed along the left or right side of its container, allowing text and inline elements to wrap around it.",
+        "float"
+    ],
+    [
+        "The pseudo-class representing any &lt;input&gt; or other &lt;form&gt; element whose contents fail to validate.",
+        ":invalid"
+    ],
+    [
+        "The property specifying the appearance of decorative lines used on text.",
+        "text-decoration"
+    ],
+    [
+        "The property specifying under what circumstances (if any) a particular graphic element can become the target of mouse events.",
+        "pointer-events"
+    ],
+    [
+        "The property specifying what to do when an element's content is too large to fit in its block formatting context.",
+        "overflow"
+    ]
+]

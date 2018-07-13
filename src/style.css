@@ -1,0 +1,43 @@
+@import "components/loader/loader.css";
+@import "screens/home/home.css";
+@import "screens/level/levelCss/level.css";
+@import "screens/level/levelCss/scales.css";
+@import "screens/level/levelCss/taskModal.css";
+@import "screens/level/levelCss/heroes.css";
+@import "screens/final/final.css";
+@import "components/modalDialog/dialogs.css";
+@import "components/modalSpells/modalSpells.css";
+@import "components/modalNav/navigationCss/navigation.css";
+@import "components/modalNav/navigationCss/navigationVolume.css";
+@import "components/modalResultTable/resultTable.css";
+@import "offices/offices.css";
+@import "extras/reset.css";
+@import "monster/monstersCss/monsters-main.css";
+@import "screens/reception/reception.css";
+@import "components/tasks/order/orderTask.css";
+@import "components/tasks/trueOrFalse/trueOrFalseTask.css";
+@import "components/tasks/giveTheName/giveTheNameTask.css";
+@import "components/tasks/addWord/addWordTask.css";
+@import "components/tasks/firstNumber/firstNumberTask.css";
+@import "components/tasks/secondNumber/secondNumberTask.css";
+@import "components/tasks/programmersNames/programmersNamesTask.css";
+@import "components/tasks/flags/flagsTask.css";
+@import "components/tasks/chooseAll/chooseAllTask.css";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Gwent";
+	font-size: 100%;
+	min-height: 100vh;
+}
+
+@font-face {
+	font-family: "Gwent";
+	font-weight: bold;
+	font-style: normal;
+	src: url("~/../src/fonts/GWENT-ExtraBold.ttf") format("truetype");
+}

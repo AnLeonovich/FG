@@ -1,0 +1,42 @@
+[
+    [
+        "The function generating arithmetic progressions.",
+        "range"
+    ],
+    [
+        "The function returning an ordered list of names in a module",
+        "dir"
+    ],
+    [
+        "The method checking whether an object belongs to a class or a subclass.",
+        "isinstance"
+    ],
+    [
+        "The keyword for function declaration.",
+        "def"
+    ],
+    [
+        "The keyword for declaring elementary functions",
+        "lambda"
+    ],
+    [
+        "The method adding an element to the end of the list.",
+        "append"
+    ],
+    [
+        "A keyword turning any function into a generator.",
+        "yield"
+    ],
+    [
+        "The function returning the string length.",
+        "len"
+    ],
+    [
+        "The function checking if the string consists of numbers.",
+        "isdigit"
+    ],
+    [
+        "The function, converting a string to lowercase.",
+        "lower"
+    ]
+]

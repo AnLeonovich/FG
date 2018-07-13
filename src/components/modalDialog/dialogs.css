@@ -1,0 +1,43 @@
+.dialog {
+	border: 5px double #9e12d8;
+	width: 100%;
+	max-height: 27%;
+	position: absolute;
+	right: -100%;
+	bottom: 0px;
+	background: white;
+	transition: right .5s linear;
+	padding: 20px;
+	background: linear-gradient(180deg, #86fdf3 33%, #bdfffa 66%, #f2d2ff);
+}
+
+.dialog__message {
+	font-size: 150%;
+	color: #9e12d8;
+}
+
+.dialog-active {
+	right: 0px;
+}
+
+.dialog__button {
+	display: block;
+	padding: 5px 0;
+	width: 150px;
+	font-family: 'Gwent';
+	color: white;
+	border: none;
+	font-size: 25px;
+	border-radius: 5px;
+	outline: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background: linear-gradient(180deg, #520971 33%, #9c5cb7 66%, #cc98e2);
+	float: right;
+	cursor: pointer;
+}
+
+.dialog__button:hover,
+.dialog__button:focus {
+	background: linear-gradient(180deg, #3b164a 33%, #602479 66%, #9e4bc0);
+	cursor: pointer;
+}

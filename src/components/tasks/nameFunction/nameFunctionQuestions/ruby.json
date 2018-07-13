@@ -1,0 +1,42 @@
+[
+    [
+        "The keyword removing a method definition.",
+        "undef"
+    ],
+    [
+        "The method returning a new array without duplicate values.",
+        "uniq"
+    ],
+    [
+        "The method adding elements to the beginning of an array.",
+        "unshift"
+    ],
+    [
+        "The method choosing a random element (or elements) from the array.",
+        "sample"
+    ],
+    [
+        "The method searching through the array whose elements are also arrays.",
+        "rassoc"
+    ],
+    [
+        "The method invoking the given block once for each element of array.",
+        "map"
+    ],
+    [
+        "The method returning the cube root of value.",
+        "cbrt"
+    ],
+    [
+        "The function returning the number of array elements",
+        "count"
+    ],
+    [
+        "The function returning a copy of array with all nil elements removed.",
+        "compact"
+    ],
+    [
+        "The function removing all elements from array.",
+        "clear"
+    ]
+]

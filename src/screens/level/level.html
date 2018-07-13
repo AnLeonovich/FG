@@ -1,0 +1,48 @@
+<div class = "background-opacity-wrapper"> </div>
+<div class="game-background">
+  <div class="door door-left" tabindex="1"><div class="arrow-left"></div></div>
+  <div class="door door-right" tabindex="2"><div class="arrow"></div></div>
+  <div class='hero-container'>
+    <div class="hero-health__wrapper">
+     <div class='hero-shield'>
+       <span>Shield: <span class='hero-shield__number'></span></span>
+     </div>
+      <div class='hero-health-scale'>
+        <span class='hero-health-scale__number'></span>
+      </div>
+      <div class='hero-super'>
+        <div class='hero-super_scale'>
+        </div>
+      </div>
+    </div>
+    <div class='hero-spell-vis'><img class='hero-spell-image'></div>
+  </div>
+  <div class="monster-container">
+    <div class="monster-head-container">
+      <div class="monster-health__wrapper">
+        <div class='monster-shield'>
+          <span>Shield: <span class='monster-shield__number'></span></span>
+        </div>                          
+        <div class='monster-health-scale'>
+          <span class='monster-health-scale__number'></span>
+        </div>
+      </div>
+    </div>
+    <div class="monster-body-container"><p class="monster-name"></p></div>
+    <div class="monster-legs-container">
+      <div class='monster-spell-vis'><img class='monster-spell-image'></div>
+    </div>
+  </div>
+  <div id="taskModal" class="modal">
+    <div class="task-modal-content">
+      <div class='task-task-content'>
+        <p class='task-task-description' id='taskDesc'></p>
+        <div class='task-task-text-wrapper'><p class='task-task-text' id='taskText'></p></div>
+      </div>
+      <div class='task-field' id='taskField'>
+        <div class='task-field-answer-container' id="taskFieldAnswer"></div>
+        <div class='answer'><span id='answer__correct' class='correct'></span><span id='answer__wrong' class='wrong'></span></div>
+      </div>
+    </div>
+  </div>                      
+</div>

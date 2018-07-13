@@ -1,0 +1,102 @@
+[
+    [
+        "What is the size of the 'empty' object?",
+        [
+            "1 char on gcc 32 bit",
+            "1 char on gcc 64 bit",
+            "2 char on gcc 32 bit",
+            "2 char on gcc 64 bit"
+        ],
+        "1 char on gcc 32 bit"
+    ],
+    [
+        "Who is the author of C++?",
+        [
+            "Charles Babbage",
+            "Denis Ritchie",
+            "Brain Karnighan",
+            "Bjarne Stroustrup"
+        ],
+        "Bjarne Stroustrup"
+    ],
+    [
+        "Which type of iterator doesn't exist in C++?",
+        [
+            "input",
+            "bidirectional",
+            "unidirectional",
+            "static"
+        ],
+        "static"
+    ],
+    [
+        "What keyword doesn't exist in C++",
+        [
+            "friend",
+            "protect",
+            "public",
+            "private"
+        ],
+        "protect"
+    ],
+    [
+        "Which type is not fundamental in C++?",
+        [
+            "void",
+            "float",
+            "string",
+            "char"
+        ],
+        "string"
+    ],
+    [
+        "Which operator used to resolve the scope of the global variable?",
+        [
+            "->",
+            "::",
+            "*",
+            "."
+        ],
+        "::"
+    ],
+    [
+        "How make an class act as an interface in C++?",
+        [
+            "Defining the class following with the keyword virtual",
+            "Defining the class following with the keyword interface",
+            "Defining the class following with the keyword abstract",
+            "By only providing all the functions as virtual functions in the class"
+        ],
+        "By only providing all the functions as virtual functions in the class"
+    ],
+    [
+        "What is the valid declaration for overloading ++ in postfix form where T is the class name.",
+        [
+            "T operator++();",
+            "T operator++(int);",
+            "T& operator++();",
+            "T& operator++(int);"
+        ],
+        "T operator++(int);"
+    ],
+    [
+        "What is the full form of STL?",
+        [
+            "Standard template library",
+            "System template library",
+            "Standard topics library",
+            "None of the above"
+        ],
+        "Standard template library"
+    ],
+    [
+        "Which option is not applicable for the constructor?",
+        [
+            "Cannot be called explicitly",
+            "Cannot be overloaded",
+            "Cannot be overridden",
+            "None of the above"
+        ],
+        "Cannot be overridden"
+    ]
+]

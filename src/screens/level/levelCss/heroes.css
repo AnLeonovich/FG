@@ -1,0 +1,25 @@
+.hero-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    height: 70vh;
+    min-width: 37vh;
+    position: relative;
+    grid-area: hero;
+}
+
+.hero-1 {
+    background-image: url("~/../src/screens/home/heroesImg/boy-hero.png");
+}
+
+.hero-2 {
+    background-image: url("~/../src/screens/home/heroesImg/girl-hero.png");
+}
+
+.hero-3 {
+    background-image: url("~/../src/screens/home/heroesImg/man-hero.png");
+}
+
+.hero-4 {
+    background-image: url("~/../src/screens/home/heroesImg/woman-hero.png");
+}

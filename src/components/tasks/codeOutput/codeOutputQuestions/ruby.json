@@ -1,0 +1,42 @@
+[
+    [
+        "a = [ \"d\", \"a\", \"e\", \"c\", \"b\" ]<br>puts a.sort {|x,y| y <=> x }<br><br>The output will be:",
+        "edcba"
+    ],
+    [
+        "arr = [1, -2, 5, -4]<br>p (0..arr.size-2).all?{ |x| (arr[x] * arr[x+1]) < 0 }<br><br>The output will be:",
+        "true"
+    ],
+    [
+        "arr = [5, 1, -2, 5, -4]<br>p (0..arr.size-2).all?{ |x| (arr[x] * arr[x+1]) < 0 }<br><br>The output will be:",
+        "false"
+    ],
+    [
+        "arr = [1, 2, 3, 4, 5]<br>ab = (3..5)<br>p arr&ab.to_a<br><br>The output will be:",
+        "[3,4,5]"
+    ],
+    [
+        "arr = [5, 7, 3, 4, 6]<br>ab = (0..2)<br>p arr&ab.to_a<br><br>The output will be:",
+        "[]"
+    ],
+    [
+        "a = [1, 2, 3, 4, 5, 6, 7, 8]<br>p a.reject{ |i| i.even? }.max<br><br>The output will be:",
+        "7"
+    ],
+    [
+        "str = \"acBdeFg\"<br>a=str.scan(/[a-z]/)<br>p a==a.sort<br><br>The output will be:",
+        "true"
+    ],
+    [
+        "str = \"dog cat duck\"<br>p str.split.size<br><br>The output will be:",
+        "3"
+    ],
+    [
+        "n=321<br>m1=n.to_s.split(//)<br>p m1==m1.sort.reverse<br><br>The output will be:",
+        "true"
+    ],
+    [
+        "n=1544<br>m=n.to_s.split(//)<br>p m.uniq==m<br><br>The output will be:",
+        "false"
+    ]
+]

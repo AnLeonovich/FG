@@ -1,0 +1,16 @@
+.options-label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.task__form_options{
+	margin-right: 5px;
+}
+
+.task__form_options:focus {
+	outline: none;
+}
+
+.options {
+    grid-template: "task-task-content" 40% "task-field" 60%;
+}

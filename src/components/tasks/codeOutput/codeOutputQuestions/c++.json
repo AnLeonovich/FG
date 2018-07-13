@@ -1,0 +1,42 @@
+[
+    [
+        "void print(int v) { std::cout << v << std::endl; }<br>void print(bool v){ std::cout << v << std::endl; }<br>int main()<br>{ print(1); }<br><br>The output will be:",
+        "1"
+    ],
+    [
+        "void print(int v) { std::cout << v << std::endl; }<br>void print(bool v){ std::cout << v << std::endl; }<br>int main()<br>{ print(true); }<br><br>The output will be:",
+        "1"
+    ],
+    [
+        "void print(int v) { std::cout << v << std::endl; }<br>void print(bool v){ std::cout << v << std::endl; }<br>int main()<br>{ print(\"Hello world\"); }<br><br>The output will be:",
+        "1"
+    ],
+    [
+        "void print(int v) { std::cout << v << std::endl; }<br>int main()<br>{<br>print(\"Hello world\");<br>}<br><br>The output will be:",
+        "error"
+    ],
+    [
+        "int main() {<br>for (int i = 0; i < 4; ++i)<br>{ switch (i) {<br>case 0  : std::cout << \"0\";<br>case 1  : std::cout << \"1\"; continue;<br>case 2  : std::cout << \"2\"; break;<br>default : std::cout << \"D\"; break; }<br>std::cout << \".\"; }<br>return 0; }<br><br>The output will be:",
+        "0112.d."
+    ],
+    [
+        "int main() {<br>for (int i = 0; i < 4; ++i)<br>{ switch (i) {<br>case 0  : std::cout << \"0\";<br>case 1  : std::cout << \"1\"; continue;<br>case 2  : std::cout << \"2\";<br>default : std::cout << \"D\"; break; }<br>std::cout << \".\"; }<br>return 0; }<br><br>The output will be:",
+        "0112d.d."
+    ],
+    [
+        "int main() {<br>for (int i = 0; i < 4; ++i)<br>{ switch (i) {<br>case 0  : std::cout << \"0\";<br>case 1  : std::cout << \"1\";<br>case 2  : std::cout << \"2\";<br>default : std::cout << \"D\"; break; }<br>std::cout << \".\"; }<br>return 0; }<br><br>The output will be:",
+        "012d.12d.2d.d."
+    ],
+    [
+        "int main() {<br>int x = 0;<br>switch(x) {<br>case 1: cout << \"Lan\";<br>case 0: cout << \"Ban\";<br>case 2: cout << \"An\"; }<br>}<br><br>The output will be:",
+        "banan"
+    ],
+    [
+        "int main() {<br>int x = 1;<br>switch(x) {<br>case 1: cout << \"Lan\";<br>case 0: cout << \"Ban\";<br>case 2: cout << \"An\"; }<br>}<br><br>The output will be:",
+        "lanbanan"
+    ],
+    [
+        "int main() {<br>int x = 1;<br>switch(x) {<br>case 1: cout << \"Lan\";<br>case 0: cout << \"Ban\"; break;<br>case 2: cout << \"An\"; }<br>}<br><br>The output will be:",
+        "lanban"
+    ]
+]

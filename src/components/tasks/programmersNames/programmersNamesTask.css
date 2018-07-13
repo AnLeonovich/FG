@@ -1,0 +1,29 @@
+.programmers_image {
+	max-width: 600px;
+	height: 270px;
+	float: left;
+	margin-right: 50px;
+}
+
+.options-label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.options-wrapper {
+	float: right;
+}
+
+.options-label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.task__form_options{
+	margin-right: 5px;
+}
+
+
+.task__form_options:focus {
+	outline: none;
+}

@@ -1,0 +1,42 @@
+[
+    [
+        "The keyword for a method that returns nothing.",
+        "void"
+    ],
+    [
+        "The numeric type for 16 bits.",
+        "short"
+    ],
+    [
+        "The package for input and output operations.",
+        "io"
+    ],
+    [
+        "The package for working with graphics and creating a GUI.",
+        "awt"
+    ],
+    [
+        "The package with main utilities.",
+        "util"
+    ],
+    [
+        "The package for cryptographic operations.",
+        "crypto"
+    ],
+    [
+        "The method defining actions in moment before the object deleted by the garbage collector.",
+        "finalize"
+    ],
+    [
+        "The keyword representing the current instance of the parent class.",
+        "super"
+    ],
+    [
+        "The method checking whether two objects are equivalent.",
+        "equals"
+    ],
+    [
+        "The keyword allowing you to check the assumptions about the values of arbitrary data at any place in the program.",
+        "assert"
+    ]
+]

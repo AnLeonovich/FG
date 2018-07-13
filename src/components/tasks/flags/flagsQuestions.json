@@ -1,0 +1,52 @@
+[
+	["Select the flag of Bulgaria", [
+		["~/../src/components/tasks/flags/flagsTaskImg/bulgaria.png", "Bulgaria"],
+		["~/../src/components/tasks/flags/flagsTaskImg/italy.png", "Italy"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/hungary.png", "Hungary"]
+	], "Bulgaria"],
+	["Select the flag of Ireland", [
+		["~/../src/components/tasks/flags/flagsTaskImg/india.png", "India"],
+		["~/../src/components/tasks/flags/flagsTaskImg/mexico.png", "Mexico"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/ireland.png", "Ireland"]
+	], "Ireland"],
+	["Select the flag of Turkey", [
+		["~/../src/components/tasks/flags/flagsTaskImg/tunis.png", "Tunis"],
+		["~/../src/components/tasks/flags/flagsTaskImg/turkey.png", "Turkey"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/switzerland.png", "Switzerland"]
+	], "Turkey"],
+	["Select the flag of China", [
+		["~/../src/components/tasks/flags/flagsTaskImg/china.png", "China"],
+		["~/../src/components/tasks/flags/flagsTaskImg/norway.png", "Norway"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/ussr.png", "USSR"]
+	], "China"],
+	["Select the flag of Nigeria", [
+		["~/../src/components/tasks/flags/flagsTaskImg/jamaica.png", "Jamaica"],
+		["~/../src/components/tasks/flags/flagsTaskImg/nigeria.png", "Nigeria"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/iceland.png", "Iceland"]
+	], "Nigeria"],
+	["Select the flag of Hong Kong", [
+		["~/../src/components/tasks/flags/flagsTaskImg/malta.png", "Malta"],
+		["~/../src/components/tasks/flags/flagsTaskImg/austria.png", "Austria"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/hongKong.png", "HongKong"]
+	], "HongKong"],
+	["Select the flag of Australia", [
+		["~/../src/components/tasks/flags/flagsTaskImg/newZealand.png", "NewZealand"],
+		["~/../src/components/tasks/flags/flagsTaskImg/australia.png", "Australia"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/norway.png", "Norway"]
+	], "Australia"],
+	["Select the flag of Estonia", [
+		["~/../src/components/tasks/flags/flagsTaskImg/scotland.png", "Scotland"],
+		["~/../src/components/tasks/flags/flagsTaskImg/france.png", "France"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/estonia.png", "Estonia"]
+	], "Estonia"],
+	["Select the flag of Sweden", [
+		["~/../src/components/tasks/flags/flagsTaskImg/italy.png", "Italy"],
+		["~/../src/components/tasks/flags/flagsTaskImg/sweden.png", "Sweden"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/poland.png", "Poland"]
+	], "Sweden"],
+	["Select the flag of Iceland", [
+		["~/../src/components/tasks/flags/flagsTaskImg/iceland.png", "Iceland"],
+		["~/../src/components/tasks/flags/flagsTaskImg/austria.png", "Austria"], 
+		["~/../src/components/tasks/flags/flagsTaskImg/hungary.png", "Hungary"]
+	], "Iceland"]
+]

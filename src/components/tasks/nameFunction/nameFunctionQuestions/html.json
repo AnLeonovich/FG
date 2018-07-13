@@ -1,0 +1,42 @@
+[
+    [
+        "The element indicating that the enclosed HTML provides contact information for a person or people, or for an organization.",
+        "<address>"
+    ],
+    [
+        "The element representing introductory content, typically a group of introductory or navigational aids.",
+        "<header>"
+    ],
+    [
+        "The element  indicating that the enclosed text is an extended quotation.",
+        "<blockquote>"
+    ],
+    [
+        "The element representing the dominant content of the &lt;body&gt; of a document, portion of a document or application.",
+        "<main>"
+    ],
+    [
+        "The element defining a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.",
+        "<noscript>"
+    ],
+    [
+        "The element defining a set of rows defining the head of the columns of the table.",
+        "<thead>"
+    ],
+    [
+        "The element representing a document section that contains interactive controls for submitting information to a web server.",
+        "<form>"
+    ],
+    [
+        "The element representing a caption for an item in a user interface.",
+        "<label>"
+    ],
+    [
+        "The element representing a multi-line plain-text editing control.",
+        "<textarea>"
+    ],
+    [
+        "The element specifying a term in a description or definition list.",
+        "<dt>"
+    ]
+]

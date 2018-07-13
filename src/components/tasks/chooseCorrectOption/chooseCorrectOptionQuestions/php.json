@@ -1,0 +1,102 @@
+[
+    [
+        "Which of the following method of Exception class returns source filename?",
+        [
+            "getMessage()",
+            "getCode()",
+            "getFile()",
+            "getLine()"
+        ],
+        "getFile()"
+    ],
+    [
+        "Which of the following function opens a file?",
+        [
+            "fopen()",
+            "fread()",
+            "filesize()",
+            "file_exist"
+        ],
+        "fopen()"
+    ],
+    [
+        "Which of the following is used to create a session?",
+        [
+            "session_start() function",
+            "$_SESSION[]",
+            "isset() function",
+            "session_destroy() function"
+        ],
+        "session_start() function"
+    ],
+    [
+        "Which of the following type of variables are instances of programmer-defined classes?",
+        [
+            "Strings",
+            "Arrays",
+            "Objects",
+            "Resources"
+        ],
+        "Objects"
+    ],
+    [
+        "What can be used to concatenate two strings?",
+        [
+            ".",
+            "+",
+            "add()",
+            "append()"
+        ],
+        "."
+    ],
+    [
+        "Which of the following method returns a formatted string representing a date?",
+        [
+            "time()",
+            "date()",
+            "getdate()",
+            "None of the above"
+        ],
+        "date()"
+    ],
+    [
+        "Which of the following method returns current date and time?",
+        [
+            "time()",
+            "date()",
+            "getdate()",
+            "None of the above"
+        ],
+        "time()"
+    ],
+    [
+        "Which of the following array represents an array with strings as index?",
+        [
+            "Numeric Array",
+            "Associative Array",
+            "Multidimentional Array",
+            "None of the above"
+        ],
+        "Associative Array"
+    ],
+    [
+        "Which of the following method of Exception class returns array of the backtrace?",
+        [
+            "getMessage()",
+            "getCode()",
+            "getTrace()",
+            "getTraceAsString()"
+        ],
+        "getTrace()"
+    ],
+    [
+        "Which of the following is used to destroy the session?",
+        [
+            "session_start() function",
+            "$_SESSION[]",
+            "isset() function",
+            "session_destroy() function"
+        ],
+        "session_destroy() function"
+    ]
+]

@@ -1,0 +1,102 @@
+[
+    [
+        "How does HTML decrypted?",
+        [
+            "HyperThread Mask Language",
+            "HyperThread Markup Language",
+            "HyperText Mask Language",
+            "HyperText Markup Language"
+        ],
+        "HyperText Markup Language"
+    ],
+    [
+        "Which &lt;link&gt; attribute contains the link address?",
+        [
+            "url",
+            "src",
+            "href",
+            "address"
+        ],
+        "href"
+    ],
+    [
+        "Which attribute can't be contained in &lt;p&gt;?",
+        [
+            "class",
+            "title",
+            "align",
+            "id"
+        ],
+        "title"
+    ],
+    [
+        "Which tag is used to name the document on the World Wide Web?",
+        [
+            "&lt;meta&gt;",
+            "&lt;base&gt;",
+            "&lt;title&gt;",
+            "&lt;head&gt;"
+        ],
+        "<title>"
+    ],
+    [
+        "Which option is used to create items for selecting multiple options?",
+        [
+            "&lt;input type=radio&gt;",
+            "&lt;input type=radiobox&gt;",
+            "&lt;input type=check&gt;",
+            "&lt;input type=checkbox&gt;"
+        ],
+        "<input type=checkbox>"
+    ],
+    [
+        "Which tag doesn't exist?",
+        [
+            "&lt;pre&gt;",
+            "&lt;hr&gt;",
+            "&lt;adress&gt;",
+            "&lt;progress&gt;"
+        ],
+        "<adress>"
+    ],
+    [
+        "Which attribute can't be contained in &lt;img&gt;?",
+        [
+            "longdesc",
+            "lowsrc",
+            "name",
+            "align"
+        ],
+        "name"
+    ],
+    [
+        "Which tag is not semantic?",
+        [
+            "&lt;main&gt;",
+            "&lt;footer&gt;",
+            "&lt;aside&gt;",
+            "&lt;content&gt;"
+        ],
+        "<content>"
+    ],
+    [
+        "Which tag is used for citations?",
+        [
+            "&lt;figure&gt;",
+            "&lt;blockquote&gt;",
+            "&lt;quote&gt;",
+            "&lt;summary&gt;"
+        ],
+        "<blockquote>"
+    ],
+    [
+        "Which tag is child for &lt;! DOCTYPE&gt;?",
+        [
+            "&lt;header&gt;",
+            "&lt;body&gt;",
+            "&lt;head&gt;",
+            "&lt;html&gt;"
+        ],
+        "<html>"
+    ]
+]

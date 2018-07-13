@@ -1,0 +1,102 @@
+[
+    [
+        "What is the sequence of ruby strings?",
+        [
+            "8-bit bytes",
+            "16-bit bytes",
+            "32-bit bytes",
+            "None of the mentioned"
+        ],
+        "8-bit bytes"
+    ],
+    [
+        "Which of the following is not a valid datatype?",
+        [
+            "Float",
+            "Integer",
+            "Binary",
+            "Timedate"
+        ],
+        "Timedate"
+    ],
+    [
+        "Which of the following datatypes is valid in Ruby?",
+        [
+            "Numbers",
+            "Boolean",
+            "String",
+            "All of the mentioned"
+        ],
+        "All of the mentioned"
+    ],
+    [
+        "Which of the following is not a valid library function?",
+        [
+            "Puts",
+            "Print",
+            "Get",
+            "Gets"
+        ],
+        "Get"
+    ],
+    [
+        "For getting an input from the user which method is used?",
+        [
+            "get",
+            "gets.chomp",
+            "get-s",
+            "chomp"
+        ],
+        "gets.chomp"
+    ],
+    [
+        "Which sequence can be used to substitute the value of any ruby expression in a string?",
+        [
+            "#(expr)",
+            "#{expr}",
+            "#expr",
+            "None of the mentioned"
+        ],
+        "#{expr}"
+    ],
+    [
+        "Why is gets not preferred instead of gets.chomp?",
+        [
+            "Gets add an extra new line while chomp removes it",
+            "Gets remove an extra new line",
+            "Chomp erases the value stored in the variable",
+            "All of the mentioned"
+        ],
+        "Gets add an extra new line while chomp removes it"
+    ],
+    [
+        "What error does the if condition gives if not terminated with end statement?",
+        [
+            "Syntax error",
+            "Unexpected end",
+            "Expecting keyword end",
+            "All of the mentioned"
+        ],
+        "All of the mentioned"
+    ],
+    [
+        "Which of the following is a valid boolean operator?",
+        [
+            "and(&&)",
+            "or(||)",
+            "not(!)",
+            "All of the mentioned"
+        ],
+        "All of the mentioned"
+    ],
+    [
+        "How to comment a single line?",
+        [
+            "Using #",
+            "Using begin and end",
+            "Using //",
+            "None of the mentioned"
+        ],
+        "Using #"
+    ]
+]

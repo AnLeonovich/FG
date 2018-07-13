@@ -1,0 +1,102 @@
+[
+    [
+        "Which event allows you to execute the code after clicking the mouse?",
+        [
+            "mouseout",
+            "mouseclick",
+            "onmouseclick",
+            "onclick"
+        ],
+        "onclick"
+    ],
+    [
+        "Which constructions for cycles existe javascript?",
+        [
+            "for, while",
+            "if, while, loop",
+            "for, while, do...while",
+            "do...while, for, while, if"
+        ],
+        "for, while, do...while"
+    ],
+    [
+        "Variable apple and Apple (with a capital letter) - is it the same or different?",
+        [
+            "same",
+            "different",
+            "Variables can not be named with a capital letter.",
+            "The word 'apple' is keyword and can't be used."
+        ],
+        "different"
+    ],
+    [
+        "How to write a comment in JS?",
+        [
+            "// I'm a comment",
+            "<!-- I'm a comment -->",
+            "<? I'm a comment ?>",
+            "* I'm a comment *"
+        ],
+        "// I'm a comment"
+    ],
+    [
+        "Which special operator is not exist in JavaScript.",
+        [
+            "delete",
+            "instanceof",
+            "typeof",
+            "isset"
+        ],
+        "isset"
+    ],
+    [
+        "JavaScript is the part of Java, isn't it?",
+        [
+            "yes",
+            "no",
+            "Java is the part of JavaScript",
+            "they are both part of ECMAScript"
+        ],
+        "no"
+    ],
+    [
+        "Which construction allows you to check code sections for errors?",
+        [
+            "error..catch",
+            "try..catch",
+            "error..try",
+            "throw"
+        ],
+        "try..catch"
+    ],
+    [
+        "Which type of collection doesn't exist in JS?",
+        [
+            "array",
+            "map",
+            "weakset",
+            "list"
+        ],
+        "list"
+    ],
+    [
+        "Which object is used to work with the date and time?",
+        [
+            "datetime",
+            "calendar",
+            "time",
+            "date"
+        ],
+        "date"
+    ],
+    [
+        "Which data type is not exist in JS?",
+        [
+            "number",
+            "undefined",
+            "function",
+            "symbol"
+        ],
+        "function"
+    ]
+]

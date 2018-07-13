@@ -1,0 +1,42 @@
+[
+    [
+        "The method used to remove the last element from an array and return that element.",
+        "pop"
+    ],
+    [
+        "The static method used to define a new property directly on an object, or modifie an existing property on an object, and return the object.",
+        "defineproperty"
+    ],
+    [
+        "The method used to return a string representing the object.",
+        "tostring"
+    ],
+    [
+        "The method used to return a string with a language sensitive representation of this number.",
+        "tolocalestring"
+    ],
+    [
+        "The method used to call a function with a given this value and arguments provided individually.",
+        "call"
+    ],
+    [
+        "The method used to return the time portion of a Date object in human readable form in American English.",
+        "totimestring"
+    ],
+    [
+        "The method used to return the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC.",
+        "now"
+    ],
+    [
+        "The method used to add one or more elements to the beginning of an array and return the new length of the array.",
+        "unshift"
+    ],
+    [
+        "The method used to create a new array with the results of calling a provided function on every element in the calling array.",
+        "map"
+    ],
+    [
+        "The method used to merge two or more arrays.",
+        "concat"
+    ]
+]

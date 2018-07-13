@@ -1,0 +1,42 @@
+[
+    [
+        "The keyword deallocating the space previously allocated by std::malloc(), std::calloc() or std::realloc().",
+        "free"
+    ],
+    [
+        "The keyword allocating size bytes of uninitialized storage.",
+        "malloc"
+    ],
+    [
+        "The function comparing two null-terminated byte strings lexicographically.",
+        "strcmp"
+    ],
+    [
+        "The function calculating the product of the first and second specified arguments, and then adds the third specified argument.",
+        "mad"
+    ],
+    [
+        "The function, determining the sign of the specified argument.",
+        "sign"
+    ],
+    [
+        "The function which is not a member of the class, but has access to private and protected members of the class.",
+        "friend"
+    ],
+    [
+        "The function comparing two values, returning 0 or 1 depending on which value is greater.",
+        "step"
+    ],
+    [
+        "The function generating a random value by using the Perlin noise algorithm.",
+        "noise"
+    ],
+    [
+        "A keyword indicating that the virtual member will receive a new cell in the vtable table.",
+        "new"
+    ],
+    [
+        "Function determining the maximum numeric value of the arguments.",
+        "umax"
+    ]
+]

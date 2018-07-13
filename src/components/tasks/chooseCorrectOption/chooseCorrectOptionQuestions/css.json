@@ -1,0 +1,102 @@
+[
+    [
+        "Which option is not a valid value for the border-style property?",
+        [
+            "dotted",
+            "inset",
+            "glazed",
+            "groove"
+        ],
+        "glazed"
+    ],
+    [
+        "Which option is not a valid length value?",
+        [
+            "cm",
+            "em",
+            "mm",
+            "dm"
+        ],
+        "dm"
+    ],
+    [
+        "Which property doesn't affect the box model?",
+        [
+            "margin",
+            "padding",
+            "outline",
+            "content"
+        ],
+        "outline"
+    ],
+    [
+        "How does CSS decrypted?",
+        [
+            "Cascading Style Sheets",
+            "Common Style Sheets",
+            "Computer Style Sheets",
+            "Current Style Sheets"
+        ],
+        "Cascading Style Sheets"
+    ],
+    [
+        "Which pseudo-class is applied to the form field whose content doesn't match the specified type?",
+        [
+            ":activ",
+            ":hover",
+            ":valid",
+            ":invalid"
+        ],
+        ":invalid"
+    ],
+    [
+        "Which color name doesn't exist in CSS?",
+        [
+            "cyan",
+            "golden",
+            "ivory",
+            "cornsilk"
+        ],
+        "golden"
+    ],
+    [
+        "Which selector allows you to access each element of a web page?",
+        [
+            "all",
+            "*",
+            "each",
+            "every"
+        ],
+        "*"
+    ],
+    [
+        "Which property used to specify the gaps between table cells?",
+        [
+            "border-collapse",
+            "border-grap",
+            "border-size",
+            "border-spacing"
+        ],
+        "border-spacing"
+    ],
+    [
+        "Which property used to specify the marker appearance of the list element?",
+        [
+            "li-style",
+            "list-type",
+            "list-style-type",
+            "li-style-type"
+        ],
+        "list-style-type"
+    ],
+    [
+        "Which property doesn't exist in CSS?",
+        [
+            "list-style-type",
+            "list-style-position",
+            "list-style-image",
+            "list-style-underline"
+        ],
+        "list-style-underline"
+    ]
+]

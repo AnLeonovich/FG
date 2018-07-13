@@ -1,0 +1,42 @@
+[
+    [
+        "$numeric = 42;<br>$type = gettype(gettype($numeric + 0.0));<br>echo $type;<br><br>The output will be:",
+        "string"
+    ],
+    [
+        "$a = 11;<br>$b = 22;<br>$c = 33;<br>echo $b = $a = $c;<br><br>The output will be:",
+        "33"
+    ],
+    [
+        "$state = array (\"Karnataka\", \"Goa\", \"Tamil Nadu\",\"Andhra Pradesh\");<br>echo (array_search (\"Tamil Nadu\", $state) );<br><br>The output will be:",
+        "2"
+    ],
+    [
+        "$fruits = array('apple', 0, 'banana', 1, 'orange');<br>for each ($fruits as $fruit) {<br>echo $fruit;<br>}<br><br>The output will be:",
+        "error"
+    ],
+    [
+        "echo 'Hello';<br>if (false)<br>echo \"PHP \"; echo \" Friend\";<br>echo \"!\";<br><br>The output will be:",
+        "hello friend!"
+    ],
+    [
+        "echo 'Hello';<br>if (false){<br>echo \"PHP \"; echo \" Friend\";<br>}<br>echo \"!\";<br><br>The output will be:",
+        "hello!"
+    ],
+    [
+        "$string = 'PHP';<br>if (print 'PHP' == (100-99)) {<br>echo 'B';<br>} else if (print 'PHP' == $string) {<br>echo 'A';<br>} else {<br>echo 'C';<br>};<br><br>The output will be:",
+        "b"
+    ],
+    [
+        "echo \"Результат: \" . 2 + 2;<br><br>The output will be:",
+        "2"
+    ],
+    [
+        "function some(){<br>return 1;<br>return 2;<br>return 3;<br>}<br>echo some();<br><br>The output will be:",
+        "1"
+    ],
+    [
+        "abstract class ololo{<br>static function dontDoIt(){<br>print \"wow\";<br>}<br>abstract function doIt();<br>}<br>ololo::dontDoIt();<br><br>The output will be:",
+        "wow"
+    ]
+]

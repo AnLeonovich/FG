@@ -1,0 +1,42 @@
+[
+    [
+        "&lt;table&gt;<br>&lt;tr&gt;&lt;th&gt;X&lt;/th&gt;&lt;th&gt;X&lt;/th&gt;&lt;th&gt;X&lt;/th&gt;&lt;/tr&gt;<br>&lt;tr&gt;&lt;th&gt;X&lt;/th&gt;&lt;/tr&gt;<br>&lt;tr&gt;&lt;th&gt;X&lt;/th&gt;&lt;th&gt;X&lt;/th&gt;&lt;/tr&gt;<br>&lt;/table&gt;<br><br>How many cells will be in the table:",
+        "6"
+    ],
+    [
+        "&lt;table&gt;<br>&lt;tr&gt;&lt;th&gt;X&lt;/th&gt;&lt;th&gt;X&lt;/th&gt;&lt;th&gt;X&lt;/th&gt;&lt;/tr&gt;<br>&lt;tr&gt;&lt;th&gt;X&lt;/th&gt;&lt;/tr&gt;<br>&lt;tr&gt;&lt;th&gt;X&lt;/th&gt;&lt;th&gt;X&lt;/th&gt;&lt;/tr&gt;<br>&lt;/table&gt;<br><br>How many cells the second tr occupies:",
+        "3"
+    ],
+    [
+        "&lt;form&gt;<br>&lt;label for=\"input\"&gt;First&lt;/label&gt;<br>&lt;input type=\"text\" name=\"input\" id=\"inp\"&gt;<br>&lt;label for=\"inp\"&gt;Second&lt;/label&gt;<br>&lt;/form&gt;<br><br>Which label will be associated with input:",
+        "second"
+    ],
+    [
+        "&lt;form name=\"form\"&gt;<br>&lt;label for=\"form\"&gt;First&lt;/label&gt;<br>&lt;label&gt;Second<br>&lt;input type=\"text\" name=\"input\"&gt;<br>&lt;/label&gt;<br>&lt;label for=\"input\"&gt;Third&lt;/label&gt;<br>&lt;/form&gt;<br><br>Which label will be associated with input:",
+        "second"
+    ],
+    [
+        "&lt;button name=\"Button\"&gt;Name&lt;/button&gt;<br><br>What will be written on the button:",
+        "name"
+    ],
+    [
+        "&lt;button value=\"Button\"&gt;Name&lt;/button&gt;<br><br>What will be written on the button:",
+        "name"
+    ],
+    [
+        "&lt;input type=\"button\" value=\"Click\" name=\"Button\"&gt;<br><br>What will be written on the button:",
+        "click"
+    ],
+    [
+        "&lt;input type=\"button\" value=\"Click\"&gt;Button<br><br>What will be written on the button:",
+        "click"
+    ],
+    [
+        "&lt;blockquote cite=\"Mummy\"&gt;Text&lt;cite&gt;Daddy&lt;/cite&gt;&lt;/blockquote&gt;<br><br>Which author will be listed on the page:",
+        "daddy"
+    ],
+    [
+        "&lt;input type=\"radio\" name=\"test\" id=\"First\" checked&gt;&lt;input type=\"radio\" name=\"test\" id=\"Second\" checked&gt;<br><br>Which input will be checked default:",
+        "second"
+    ]
+]

@@ -1,0 +1,42 @@
+[
+    [
+        "Float f1 = new Float(Float.NaN);<br>Float f2 = new Float(Float.NaN);<br>System.out.println(f1 == f2);<br><br>The output will be:",
+        "false"
+    ],
+    [
+        "Float f1 = new Float(Float.NaN);<br>Float f2 = new Float(Float.NaN);<br>System.out.println(f1.equals(f2));<br><br>The output will be:",
+        "true"
+    ],
+    [
+        "System.out.println(Float.NaN == Float.NaN);<br><br>The output will be:",
+        "false"
+    ],
+    [
+        "Integer a = 120;<br>Integer b = 120;<br>Integer c = 130;<br>Integer d = 130;<br>System.out.println(a == b);<br><br>The output will be:",
+        "true"
+    ],
+    [
+        "Integer a = 120;<br>Integer b = 120;<br>Integer c = 130;<br>Integer d = 130;<br>System.out.println(c == d);<br><br>The output will be:",
+        "false"
+    ],
+    [
+        "public static void main(String [] args)<br>{<br>String s = \"ONE\"+3+2+\"TWO\";<br>System.out.println(s);<br>}<br><br>The output will be:",
+        "one32two"
+    ],
+    [
+        "public class Main {<br>public static void main(String[] args) {<br>System.out.println(args.length);<br>}<br>}<br><br>The output will be:",
+        "0"
+    ],
+    [
+        "int i = 0;<br>System.out.print(++i);<br>System.out.print(i++);<br>System.out.print(i);<br><br>The output will be:",
+        "112"
+    ],
+    [
+        "int[][] array = {{1, 2, 3}, {0, 0, 0,},};<br>System.out.println(Arrays.deepToString(array));<br><br>The output will be:",
+        "[[1,2,3],[0,0,0]]"
+    ],
+    [
+        "long year = 201l;<br>System.out.print(year);<br><br>The output will be:",
+        "201"
+    ]
+]

@@ -1,0 +1,8 @@
+.options-checkbox{
+  display: block;
+  margin: 10px 0;
+}
+
+.options-checkbox__item{
+  margin-right: 10px;
+}

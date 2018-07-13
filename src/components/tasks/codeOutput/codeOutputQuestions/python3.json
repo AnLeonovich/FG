@@ -1,0 +1,42 @@
+[
+    [
+        "print(type(1 / 2))<br><br>The class will be:",
+        "float"
+    ],
+    [
+        "print(type(2 / 1))<br><br>The class will be:",
+        "float"
+    ],
+    [
+        "kvps  = {\"user\",\"bill\", \"password\",\"hillary\"}<br>print(kvps['password'])<br><br>The output will be:",
+        "error"
+    ],
+    [
+        "x = 4.5<br>y = 2<br>print(x // y)<br><br>The output will be:",
+        "2.0"
+    ],
+    [
+        "a = [1,2,3,None,(),[],]<br>print(len(a))<br><br>The output will be:",
+        "6"
+    ],
+    [
+        "name = \"snow storm\"<br>print(\"%s\" % name[6:8])<br><br>The output will be:",
+        "to"
+    ],
+    [
+        "print((0 < 5 <= 3) and (0 / 0))<br><br>The output will be:",
+        "false"
+    ],
+    [
+        "def summ(arg1, arg2):<br>return arg1 + arg2<br>num = 1, 2<br>print (summ(num))<br><br>The output will be:",
+        "error"
+    ],
+    [
+        "print (\"{0:*^15}\".format(1234567))<br><br>The output will be:",
+        "****1234567****"
+    ],
+    [
+        "a, b = 0, 1<br>while b < 5:<br>print(b, end = '')<br>a, b = b, a + b<br><br>The output will be:",
+        "1123"
+    ]
+]

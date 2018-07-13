@@ -1,0 +1,42 @@
+[
+    [
+        "body{<br>width: 500px;<br>padding: 15px;<br>}<br><br>The width will be:",
+        "530"
+    ],
+    [
+        "body{<br>width: 500px;<br>margin: 15px;<br>}<br><br>The width will be:",
+        "500"
+    ],
+    [
+        "div.first{<br>position: absolute;<br>}<br><br>div.second{<br>position: absolute;<br>}<br><br>Which div we will see:",
+        "second"
+    ],
+    [
+        "div{<br>background-color: red;<br>background-color: yellow;<br>}<br><br>What color will be:",
+        "yellow"
+    ],
+    [
+        "div{<br>color: white;<br>background-color: red;<br>background-color: yellow;<br>color: pink;<br>}<br><br>What color the text is:",
+        "pink"
+    ],
+    [
+        "body{<br>width: 500px;<br>outline: 15px solid red;<br>}<br><br>The width will be:",
+        "500"
+    ],
+    [
+        "body{<br>width: 500px;<br>border: 15px solid red;<br>}<br><br>The width will be:",
+        "530"
+    ],
+    [
+        "div{<br>width: 0;<br>height: 0;<br>border-left: 150px solid transparent;<br>border-right: 150px solid transparent;<br>border-top: 150px solid blue;<br>}<br><br>What the block will look like:",
+        "triangle"
+    ],
+    [
+        "table{<br>border-collapse: separate;<br>border-spacing: 10px 20px;<br>}<br><br>How many px will be between the columns:",
+        "10"
+    ],
+    [
+        "table{<br>border-collapse: separate;<br>border-spacing: 10px 20px;<br>}<br><br>How many px will be between the rows:",
+        "20"
+    ]
+]

@@ -1,0 +1,102 @@
+[
+    [
+        "Which of the following function sets the integer starting value used in generating random numbers?",
+        [
+            "choice(seq)",
+            "randrange ([start,] stop [,step])",
+            "random()",
+            "seed([x])"
+        ],
+        "seed([x])"
+    ],
+    [
+        "Which of the following function convert an object to a string in python?",
+        [
+            "int(x [,base])",
+            "long(x [,base] )",
+            "float(x)",
+            "str(x)"
+        ],
+        "str(x)"
+    ],
+    [
+        "Which of the following function gets a space-padded string with the original string left-justified to a total of width columns?",
+        [
+            "isupper()",
+            "join()",
+            "len()",
+            "ljust()"
+        ],
+        "ljust()"
+    ],
+    [
+        "What is the following function gives the total length of the list?",
+        [
+            "len()",
+            "length()",
+            "count()",
+            "cmp()"
+        ],
+        "len()"
+    ],
+    [
+        "Which of the following function convert an object to a regular expression in python?",
+        [
+            "repr()",
+            "eval()",
+            "tuple()",
+            "list()"
+        ],
+        "repr()"
+    ],
+    [
+        "Which of the following is correct about Python?",
+        [
+            "It supports automatic garbage collection",
+            "It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java",
+            "Both of the above",
+            "None of the above"
+        ],
+        "Both of the above"
+    ],
+    [
+        "Which of the following function removes all leading and trailing whitespace in string?",
+        [
+            "replace()",
+            "strip()",
+            "swapcase()",
+            "title()"
+        ],
+        "strip()"
+    ],
+    [
+        "Which of the following function of dictionary gets all the values from the dictionary?",
+        [
+            "getvalues()",
+            "value()",
+            "values()",
+            "None of the above"
+        ],
+        "values()"
+    ],
+    [
+        "Which of the following function convert a sequence of tuples to dictionary in python?",
+        [
+            "set()",
+            "dict()",
+            "frozenset()",
+            "chr()"
+        ],
+        "dict()"
+    ],
+    [
+        "Which of the following function capitalizes first letter of string?",
+        [
+            "shuffle()",
+            "capitalize()",
+            "isalnum()",
+            "isdigit()"
+        ],
+        "capitalize()"
+    ]
+]

@@ -1,0 +1,89 @@
+.game-background {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% auto;
+	min-height: 100vh;
+	background-color: #8e9492;
+	position: relative;
+	display: grid;
+	grid-template: "level level level level level level" ". hero spells spells monster ." ". . . . . ."/auto auto 150px 150px auto auto;
+	align-items: end;
+}
+
+.level__caption {
+	font-size: 48px;
+	width: 100%;
+	text-align: center;
+	grid-area: level-caption;
+	background: linear-gradient(180deg, #401167 33%, #580e96 66%, #7918cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.door {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% auto;
+	position: fixed;
+	height: 100%;
+	top: 2.6%;
+	transition: 1s transform linear;
+	cursor: pointer;
+}
+
+.door-left {
+	background-image: url("~/../src/officeBackground/doors/door-left.png");
+	transform-origin: left;
+	left: 4.2%;
+	width: 6.35%;
+}
+
+.door-right {
+	background-image: url("~/../src/officeBackground/doors/door-right.png");
+	transform-origin: right;
+	right: 3.6%;
+	width: 6.59%;
+}
+
+.doorOpened {
+	transform: rotateY(90deg);
+	transition: .5s linear;
+}
+
+.door-right:focus .arrow,
+.door-right:hover .arrow {
+	display: block;
+}
+
+.door-left:focus .arrow-left,
+.door-left:hover .arrow-left  {
+	display: block;
+}
+
+
+.door:focus{
+	outline: none;
+}
+
+.arrow{
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url(~/../src/extras/arrow-left.png);
+    background-size: contain;
+    bottom: 40%;
+    left: -70px;
+    display: none;
+}
+
+.arrow-left{
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url(~/../src/extras/arrow-left.png);
+    background-size: contain;
+    transform: scale(-1, 1);
+    bottom: 40%;
+    left: 70px;
+    display: none;
+}

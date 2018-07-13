@@ -1,0 +1,42 @@
+[
+    [
+        "The function drawing an arc of a circle with given coordinates of the center.",
+        "imagearc"
+    ],
+    [
+        "The function converting binary data to a hexadecimal representation.",
+        "bin2hex"
+    ],
+    [
+        "The function returning a string length.",
+        "strlen"
+    ],
+    [
+        "The function displaying information about the current configuration of PHP.",
+        "phpinfo"
+    ],
+    [
+        "The function returning the type of a variable.",
+        "gettype"
+    ],
+    [
+        "The function returning the number of array elements or object properties.",
+        "count"
+    ],
+    [
+        "The function sorting the array by keys in the reverse order.",
+        "krsort"
+    ],
+    [
+        "The function returning the absolute value of number.",
+        "abs"
+    ],
+    [
+        "The function which uppercase the first character of each word in a string",
+        "ucwords"
+    ],
+    [
+        "The function returning the height of the given image.",
+        "imagesy"
+    ]
+]

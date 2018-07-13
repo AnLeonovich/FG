@@ -1,0 +1,42 @@
+[
+    [
+        "console.log(NaN == NaN);<br><br>The output will be:",
+        "false"
+    ],
+    [
+        "var c = {};<br>var d = {};<br>conslole.log(c === d);<br><br>The output will be:",
+        "false"
+    ],
+    [
+        "console.log(0 ? 'truthy' : 'falsy');<br><br>The output will be:",
+        "falsy"
+    ],
+    [
+        "(function(){<br>console.log(typeof arguments);<br>})();<br><br>The output will be:",
+        "object"
+    ],
+    [
+        "(function(x){<br>delete x;<br>console.log (x);<br>})(1);<br><br>The output will be:",
+        "1"
+    ],
+    [
+        "function test(){<br>console.log(a);<br>var a = 2;<br>}<br>test();<br><br>The output will be:",
+        "undefined"
+    ],
+    [
+        "console.log('b'+'a' + + 'a');<br><br>The output will be:",
+        "banan"
+    ],
+    [
+        "function f(){ return f; }<br>console.log(new f() instanceof f);<br><br>The output will be:",
+        "false"
+    ],
+    [
+        "var y = 1, x = y = typeof x;<br>console.log(x);<br><br>The output will be:",
+        "undefined"
+    ],
+    [
+        "let a = [1,2]<br>(function() { alert(a) })()<br><br>The output will be:",
+        "error"
+    ]
+]
